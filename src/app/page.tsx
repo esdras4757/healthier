@@ -10,8 +10,8 @@ export default function Home() {
     <Container>
     <div className="layout">
       <div className="flex flex-col gap-5 w-full">
+      <img className="mx-auto mb-6" src="images/Healthier.png" height={126} width={226} alt="Logo" />
       <h2 className="text-primary w-full text-center">Iniciar sesión</h2>
-
       <div className="w-full">
       <div className="flex w-full flex-col gap-6">
         <div className="w-full">
