@@ -11,16 +11,18 @@ export default function Home() {
     <div className="layout">
       <div className="flex flex-col gap-5 w-full">
       <img className="mx-auto mb-6" src="images/Healthier.png" height={126} width={226} alt="Logo" />
-      <h2 className="text-primary w-full text-center">Iniciar sesión</h2>
+      <h2 className="text-primary w-full text-center text-3xl">Iniciar sesión</h2>
       <div className="w-full">
       <div className="flex w-full flex-col gap-6">
         <div className="w-full">
         <Label htmlFor="correo">Correo</Label>
-      <Input id="correo" type="text" />
+      <Input id="correo" type="email" />
         </div>
-        <div className="w-100">
+        <div className="w-100 relative">
         <Label htmlFor="contraseña">Contraseña</Label>
-      <Input id="contraseña" type="text" />
+      <Input id="contraseña" type="password" />
+      <i className="far text-xl fa-eye absolute right-4 cursor-pointer" style={{top:'54%'}}></i>
+      {/* <i className="far text-xl fa-eye-slash absolute right-4 cursor-pointer" style={{top:'54%'}}></i> */}
         </div>
         <Button className="w-full mb-3">
         Iniciar sesión
@@ -52,6 +54,7 @@ export default function Home() {
 }
 
 const Container = styled.div`
+padding: 4%;
 padding: 15px;
 margin: auto;
 width: 100%;

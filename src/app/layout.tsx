@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import '@fortawesome/fontawesome-free/css/all.min.css'
 import { Roboto_Flex as FontSans } from "next/font/google"
 import { cn } from "@/lib/utils"
 

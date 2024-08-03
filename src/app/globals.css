@@ -97,3 +97,11 @@ input{
 .text-xs{
   font-size: 14px !important;
 }
+
+i{
+  color: #5c5c5c;
+}
+
+h3{ 
+  font-size: 20px;
+}
